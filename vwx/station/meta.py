@@ -11,7 +11,7 @@ from vwx.exceptions import BadStation
 from vwx.load_utils import LazyLoad
 from vwx.static.core import IN_REGIONS, M_IN_REGIONS, M_NA_REGIONS, NA_REGIONS
 
-__LAST_UPDATED__ = "2024-04-13"
+__LAST_UPDATED__ = "2024-04-18"
 
 # Lazy data loading to speed up import times for unused features
 STATIONS = LazyLoad("stations")
